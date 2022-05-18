@@ -5,6 +5,7 @@ public class PineTree {
 
 
         System.out.println("This is not a tree!");
+        System.out.println("BMW is not a tree");
 
 
 
