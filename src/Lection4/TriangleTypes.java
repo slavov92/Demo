@@ -50,6 +50,9 @@ public class TriangleTypes {
                         System.out.println("The triangle is 'obtuse'(тъпоъгълен)!");
                         System.out.println("The triangle is равнобедрен!");
                     }
+                    else if (angleA != angleB && angleA!=angleC && angleB !=angleC){
+                        System.out.println("The triangle is multifaceted (разностранен)");
+                    }
                     else {
                         System.out.println("The triangle is 'obtuse'(тъпоъгълен)!");
                     }
