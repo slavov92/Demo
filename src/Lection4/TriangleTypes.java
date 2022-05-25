@@ -37,8 +37,8 @@ public class TriangleTypes {
 
                         if ((angleA.equals(angleB)) || (angleA.equals(angleC)) || (angleB.equals(angleC))){
                             System.out.println("The triangle is равнобедрен!");
-                        }   else if (angleA != angleB || angleA!=angleC || angleB !=angleC){
-                            System.out.println("");
+                        }   else if (angleA != angleB && angleA!=angleC && angleB !=angleC){
+                            System.out.println("The triangle is multifaceted (разностранен)");
                         }
                     }
 
